@@ -1,11 +1,12 @@
-<div>
+<div class='country'>
   <img src='{{flag}}' alt='{{name}}' width='60' height='40' />
-  <h2>{{name}}</h2>
+  <h2 class='country_name'>{{name}}</h2>
 </div>
 <div>
   <ul>
-    <li>Capital: {{capital}}</li>
-    <li>Population: {{population}}</li>
-    <li>Languages: {{#each languages}}{{name}} {{/each}}</li>
+    <li><span class='country_feature'>Capital:</span> {{capital}}</li>
+    <li><span class='country_feature'>Population:</span> {{population}}</li>
+    <li><span class='country_feature'>Languages:</span> {{#each languages}}{{name}} {{/each}}</li>
   </ul>
 </div>
+{{! ukraine }}

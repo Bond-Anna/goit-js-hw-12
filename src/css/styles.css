@@ -16,3 +16,32 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul > li {
+  font-size: 18px;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.country_name {
+  margin: 0 0 0 5px;
+  font-size: 32px;
+}
+
+.country_feature {
+  font-weight: bold;
+}
+
+.country-info {
+  align-content: flex-start;
+}
